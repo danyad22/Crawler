@@ -73,7 +73,7 @@ class Crawler:
                 f.write(url + '\n')
 
 if __name__ == "__main__":
-    start_url = "https://www.unidocs.co.uk/"  # replace with your starting URL
+    start_url = "https://example.com/"  # replace with your starting URL
     max_depth = 1  # adjust the maximum depth
     crawler = Crawler(start_url, max_depth)
     print("Starting crawling process...")
